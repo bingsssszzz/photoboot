@@ -87,7 +87,7 @@ captureButton.addEventListener('click', () => {
 
 // 🔹 Tombol Ambil Ulang
 retakeButton.addEventListener('click', () => {
-  video.style.display = 'block';
+  video.style.display = '';
   photo.src = '';
   captureButton.disabled = false;
   retakeButton.disabled = true;
@@ -106,3 +106,4 @@ saveButton.addEventListener('click', () => {
   a.download = 'foto_booth.png';
   a.click();
 });
+
